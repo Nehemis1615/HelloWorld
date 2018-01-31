@@ -1,0 +1,16 @@
+{
+    "name": "simon/helloworld",
+    "description": "this is a test packages",
+    "authors": [
+        {
+            "name": "Xing1615",
+            "email": "xing1615@unisharp.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"psr-4":{
+    		"Simon\\HelloWorld\\": "src/"
+    	}
+    }
+}
